@@ -1,0 +1,52 @@
+/*
+ * SPACING SCALE
+ * Base: 4px — múltiplos progressivos
+ * ─────────────────────────────────
+ *    8px   best friends  (label + campo, ícone + label)
+ *   16px   friends       (padding interno de card, gap de form)
+ *   24px   casual        (padding maior de card, gap entre cards)
+ *   32px   casual+       (gap entre grupos)
+ *   48px   strangers     (entre seções compactas)
+ *   64px   strangers+    (entre seções)
+ *   96px   far apart     (hero, máximo respiro)
+ */
+
+/*
+ * FONT SIZE SCALE
+ * ───────────────────────────────────────────────────────
+ *   12px   labels, captions, helper text
+ *   14px   texto secundário, badges
+ *   16px   corpo (base)
+ *   18px   corpo destacado, lead
+ *   20px   subtítulo pequeno
+ *   24px   subtítulo
+ *   32px   título de seção
+ *   40px   título de página
+ *   48px   hero
+ */
+
+ /* 
+ * COLORS 
+ * Primary: #e67e22;
+ * Tints:
+ * Shades:
+ * Accents:
+ * Grays:
+*/
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    line-height: 1;
+    font-weight: 400;
+    color: #343a40;
+}

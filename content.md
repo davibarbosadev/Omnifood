@@ -18,7 +18,7 @@ Cor da marca: #e67e22
 
 ### Resumo
 
-A assinatura inteligente de refeições para os 365 dias do ano que fará você voltar a se alimentar de forma saudável. Adaptada aos seus gostos pessoais e às suas necessidades nutricionais. Entregamos mais de 250.000 refeições no ano passado!
+Assinatura inteligente de refeições para os 365 dias do ano que fará você voltar a se alimentar de forma saudável. Adaptada aos seus gostos pessoais e às suas necessidades nutricionais. Entregamos mais de 250.000 refeições no ano passado!
 
 ## stats
 

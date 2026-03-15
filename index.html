@@ -1,10 +1,80 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-br">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+            rel="stylesheet"
+        />
+
         <link rel="stylesheet" href="css/main.css" />
         <title>Omnifood</title>
     </head>
-    <body></body>
+    <body>
+        <header class="header">
+            <a href="index.html">
+                <img class="logo" src="assets/img/omnifood-logo.png" alt="Logo Omnifood" />
+            </a>
+
+            <nav class="navigation">
+                <ul class="navigation__list">
+                    <li><a class="navigation__link" href="#">Como funciona</a></li>
+                    <li><a class="navigation__link" href="#">Cardápio</a></li>
+                    <li><a class="navigation__link" href="#">Depoimentos</a></li>
+                    <li><a class="navigation__link" href="#">Planos</a></li>
+                    <li><a class="btn btn--small btn--link btn--primary" href="#">Experimente grátis</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section class="section section--hero">
+            <div class="hero container">
+                
+                <div class="hero__text">
+                    <h1 class="hero__title">
+                        Refeições saudáveis entregues na sua porta todos os dias.
+                    </h1>
+
+                    <p class="hero__description">
+                        Assinatura inteligente de refeições para os 365 dias do ano que fará você
+                        voltar a se alimentar de forma saudável. Adaptada aos seus gostos pessoais e
+                        às suas necessidades nutricionais.
+                    </p>
+
+                    <div class="hero__actions">
+                        <a class="btn btn--big btn--link btn--primary" href="#">Começar agora</a>
+
+                        <a class="btn btn--big btn--link btn--secondary btn--icon" href="#"
+                            ><span>Saiba mais</span>
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                fill="none"
+                                viewBox="0 0 24 24"
+                                stroke-width="1.5"
+                                stroke="currentColor"
+                                class="btn__icon"
+                            >
+                                <path
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    d="M15.75 17.25 12 21m0 0-3.75-3.75M12 21V3"
+                                />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero__img">
+                    <img
+                        src="assets/img/hero.png"
+                        alt="Mulher saboreando comida, refeições em recipientes de armazenamento e pratos dispostos sobre uma mesa."
+                    />
+                </div>
+            </div>
+        </section>
+    </body>
 </html>

@@ -1,1 +1,11 @@
-@import "base.css";
+@import "base/reset.css";
+@import "componets/buttons.css";
+@import "componets/header.css";
+@import "componets/hero.css";
+@import "componets/navigation.css";
+
+
+
+@import "layout/grid.css";
+@import "layout/section--hero.css";
+@import "layout/section--how.css";

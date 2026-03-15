@@ -1,0 +1,18 @@
+.navigation__list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 3.2rem;
+}
+
+.navigation__link:any-link {
+    color: inherit;
+    font-weight: 500;
+    font-size: 1.6rem;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.navigation__link:any-link:hover {
+    color: #cf711f;
+}

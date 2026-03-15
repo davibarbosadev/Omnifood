@@ -29,7 +29,10 @@
  * COLORS 
  * Primary: #e67e22;
  * Tints:
- * Shades:
+ * #fdf2e9
+ * #f5cba7
+ *
+* Shades:
  * Accents:
  * Grays:
 */
@@ -45,7 +48,7 @@ html {
 }
 
 body {
-    font-family: sans-serif;
+    font-family: "Rubik", sans-serif;
     line-height: 1;
     font-weight: 400;
     color: #343a40;

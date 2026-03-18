@@ -25,16 +25,20 @@
  *   48px   hero
  */
 
- /* 
+/* 
  * COLORS 
  * Primary: #e67e22;
  * Tints:
  * #fdf2e9
+ * #fae5d3
  * #f5cba7
  *
 * Shades:
+ * #cf711f
  * Accents:
  * Grays:
+ * #343a40
+ * #495057
 */
 
 html {
@@ -52,4 +56,10 @@ body {
     line-height: 1;
     font-weight: 400;
     color: #343a40;
+}
+
+.container {
+    max-width: 144rem;
+    margin: 0 auto;
+    padding-inline: 2.4rem;
 }

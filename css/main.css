@@ -3,9 +3,9 @@
 @import "componets/header.css";
 @import "componets/hero.css";
 @import "componets/navigation.css";
+@import "componets/featured-in.css";
+@import "componets/how-it-work.css";
 
 
 
-@import "layout/grid.css";
-@import "layout/section--hero.css";
-@import "layout/section--how.css";
+@import "layout/section.css";

@@ -56,11 +56,21 @@ Pause a qualquer momento: Vai viajar? Basta pausar sua assinatura, e nós reembo
 
 **Sua dose diária de saúde em 3 passos simples**
 
-Diga-nos o que você gosta (e o que não gosta): Nunca mais perca tempo pensando no que comer! A IA da Omnifood criará um plano semanal de refeições 100% personalizado só para você. Ela garante que você receba todos os nutrientes e vitaminas necessários, independentemente da dieta que seguir.
+1. Conte o que você gosta (e o que não gosta)
 
-Aprove seu plano semanal de refeições: Uma vez por semana, aprove o plano de refeições gerado para você pela IA da Omnifood. Você pode alterar ingredientes, trocar refeições completas ou até adicionar suas próprias receitas.
+Nunca mais perca tempo decidindo o que comer.
+A IA da Omnifood cria um plano semanal 100% personalizado para você, garantindo todos os nutrientes e vitaminas necessários — independentemente da sua dieta.
 
-Receba suas refeições em um horário conveniente: Os melhores chefs da cidade cozinharão sua refeição selecionada todos os dias, e nós a entregaremos na sua porta no horário que for mais conveniente. Você pode alterar o horário e o endereço de entrega diariamente!
+2. Aprove e personalize seu plano semanal
+
+Uma vez por semana, revise o plano criado pela IA.
+Quer mudar algo? Você pode trocar ingredientes, substituir refeições completas ou até adicionar suas próprias receitas.
+
+3. Receba suas refeições no horário ideal
+
+Nossos chefs preparam suas refeições diariamente, e entregamos tudo na sua porta no horário mais conveniente para você.
+Precisa alterar? Você pode mudar o horário e o endereço sempre que quiser.
+
 
 ### Exemplos de refeições - meals
 

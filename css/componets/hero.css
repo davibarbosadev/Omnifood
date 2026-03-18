@@ -1,6 +1,5 @@
 .hero {
     display: grid;
-    grid-template-columns: 1.45fr 1fr;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;
     gap: 3.2rem;
@@ -14,8 +13,8 @@
 }
 
 .hero__description {
-    /* width: 65%; */
     margin-bottom: 3.2rem;
+    color: #495057;
     font-size: 1.8rem;
     line-height: 1.6;
 }

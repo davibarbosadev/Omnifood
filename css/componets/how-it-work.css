@@ -1,0 +1,73 @@
+.how-it-work {
+    margin-bottom: 4.8rem;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    gap: 4.8rem;
+}
+
+/* altera a ordem visual da segunda etapa */
+.how-it-work:is(:nth-of-type(2)) .how-it-work__img {
+    grid-column: 1;
+    grid-row: 1;
+}
+
+.how-it-work__text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.2rem;
+}
+
+.how-it-work__step-number {
+    color: #dee2e6;
+    font-size: 6.4rem;
+    font-weight: bold;
+}
+
+.how-it-work__title {
+    font-size: 2.4rem;
+    line-height: 1.2;
+}
+
+.how-it-work__title span {
+    display: inline-block;
+}
+
+.how-it-work__description {
+    color: #495057;
+    font-size: 1.6rem;
+    line-height: 1.7;
+}
+
+.how-it-work__img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    /* background-color: lightcoral; */
+}
+
+.how-it-work__img::before,
+.how-it-work__img::after {
+    content: "";
+    position: absolute;
+    z-index: -1;
+
+    aspect-ratio: 1;
+    border-radius: 50%;
+}
+
+.how-it-work__img::before {
+    width: 60%;
+    background-color: #fdf2e9;
+}
+
+.how-it-work__img::after {
+    width: 45%;
+    background-color: #fae5d3;
+}
+
+.how-it-work__img img {
+    width: 35%;
+}

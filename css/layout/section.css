@@ -7,11 +7,20 @@
     background-color: #fdf2e9;
 }
 
+.section--featured-in {
+    padding-block: 9.6rem;
+}
+
+.section--stats {
+    background-color: #e67e22;
+    background-color: #cf711f;
+}
+
 .section__header {
     margin-bottom: 4.8rem;
     display: flex;
     flex-direction: column;
-    gap: .8rem;
+    gap: 0.8rem;
 }
 
 .section__title {
@@ -22,6 +31,6 @@
     color: #e67e22;
     font-size: 1.6rem;
     font-weight: 500;
-    letter-spacing: .2rem;
+    letter-spacing: 0.2rem;
     text-transform: uppercase;
 }

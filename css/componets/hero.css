@@ -1,4 +1,13 @@
+.section--hero {
+    padding-block-start: 0;
+    background-color: #fdf2e9;
+}
+
 .hero {
+    max-width: 144rem;
+    margin: 0 auto;
+    padding: 2.4rem;
+
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     align-items: center;

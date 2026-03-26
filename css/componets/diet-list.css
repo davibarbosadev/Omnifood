@@ -1,0 +1,27 @@
+.diet {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.diet__title {
+    font-size: 1.8rem;
+}
+
+.diet__list {
+    height: 100%;
+    font-size: 1.6rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.diet__item {
+    display: flex;
+    align-items: center;
+    gap: .8rem;
+}
+
+.diet__icon {
+    stroke: #e67e22;
+}

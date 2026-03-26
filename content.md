@@ -166,12 +166,12 @@ Privacidade & termos
 ## Sections
 
 - Hero
-- Stats
 - Featured in
-- Features
+- Stats
 - How it works
 - Meals / Diets
 - Testimonials
 - Pricing
+- Features
 - Call to action
 - Footer

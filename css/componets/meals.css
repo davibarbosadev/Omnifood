@@ -1,0 +1,105 @@
+.section--meals .section__header {
+    text-align: center;
+}
+
+.meals {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 4.8rem;
+}
+
+.meal {
+    border-radius: 1.2rem;
+    box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.meal:hover {
+    transform: translateY(-1.2rem);
+    box-shadow: 0 4.8rem 9.6rem rgba(0, 0, 0, 0.05);
+}
+
+.meal__img {
+    width: 100%;
+}
+
+.meal__content {
+    padding: 1.2rem 2.4rem 3.2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.meal__categories {
+    display: flex;
+    gap: 0.8rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.meal__category {
+    padding: 0.4rem 1.2rem;
+    border-radius: 50px;
+}
+
+.meal__category.vegetarian {
+    background-color: #37b24d;
+}
+
+.meal__category.vegan {
+    background-color: #82c91e;
+}
+
+.meal__category.paleo {
+    background-color: #ffd43b;
+}
+
+.meal__title {
+    padding-block: 1.2rem 2.4rem;
+    font-size: 1.8rem;
+}
+
+.meal__details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    color: #495057;
+    font-size: 1.4rem;
+}
+
+.meal__detail {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.meal__icon {
+    width: 2.4rem;
+    height: 2.4rem;
+    stroke: #e67e22;
+}
+
+.meal__label {
+}
+
+.meal__value {
+    font-weight: 500;
+}
+
+.meals__link-container {
+    padding-block: 3.2rem;
+    text-align: center;
+}
+
+.meals__link:any-link {
+    text-decoration: none;
+    font-size: 1.8rem;
+    color: #e67e22;
+    border-bottom: 1px solid;
+    padding-bottom: 0.2rem;
+    transition: border-color 0.3s ease;
+}
+
+.meals__link:hover {
+    border-color: transparent;
+}

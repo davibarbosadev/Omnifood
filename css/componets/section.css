@@ -1,0 +1,36 @@
+.section {
+    padding-block: 6.4rem;
+}
+
+.section__header {
+    margin-bottom: 4.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.section__title {
+    font-size: 4rem;
+}
+
+.section__subtitle {
+    color: #e67e22;
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: 0.2rem;
+    text-transform: uppercase;
+}
+
+.section__footer {
+    padding-block: 3.2rem;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+

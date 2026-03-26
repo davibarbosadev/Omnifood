@@ -1,4 +1,5 @@
 @import "base/reset.css";
+@import "componets/section.css";
 @import "componets/buttons.css";
 @import "componets/header.css";
 @import "componets/hero.css";
@@ -6,7 +7,12 @@
 @import "componets/featured-in.css";
 @import "componets/stats.css";
 @import "componets/how-it-work.css";
+@import "componets/meals.css";
+@import "componets/diet-list.css";
+@import "componets/testimonials.css";
 
 
 
-@import "layout/section.css";
+@import "layout/grid.css";
+
+

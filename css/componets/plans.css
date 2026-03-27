@@ -1,0 +1,118 @@
+.plans {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6.4rem;
+}
+
+.plan {
+    padding: 2.4rem 2.4rem 3.2rem;
+
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+
+    color: #495057;
+    border: 3px solid #fdf2e9;
+    border-radius: 0.8rem;
+}
+
+.plan--premium {
+    overflow: hidden;
+    position: relative;
+    border: none;
+    background-color: #fdf2e9;
+}
+
+.plan--premium::after {
+    padding: .8rem 5rem;
+    content: "melhor valor";
+    position: absolute;
+    top: 5%;
+    right: -20%;
+
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #343a40;
+    background-color: #fcc419;
+
+    transform: rotate(45deg);
+}
+
+.plan__header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.plan__name {
+    font-size: 1.6rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #cf711f;
+}
+
+.plan__pricing-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.plan__pricing {
+    display: flex;
+    align-items: baseline;
+}
+
+.plan__currency {
+    align-self: center;
+    font-weight: 600;
+}
+
+.plan__amount {
+    font-size: 4.8rem;
+    font-weight: 600;
+    color: #343a40;
+}
+
+.plan__period {
+    transform: translateX(-1rem);
+}
+
+.plan__pricing-details {
+    font-weight: 300;
+    color:  #868e96;
+    font-size: 1.6rem;
+}
+
+.plan__features {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.plan__feature {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    font-size: 1.6rem;
+}
+
+.plan__feature--disabled span {
+    color: #adb5bd;
+    text-decoration: line-through;
+}
+
+.plan__icon {
+    stroke: #e67e22;
+    stroke-width: 1.4;
+}
+
+.plan__icon--disabled {
+    stroke: #adb5bd;
+}
+
+.plan__cta {
+    padding-block: 1.2rem;
+}

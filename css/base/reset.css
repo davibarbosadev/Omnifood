@@ -63,6 +63,11 @@ ol {
     list-style: none;
 }
 
+button {
+    border: none;
+    cursor: pointer;
+}
+
 .container {
     max-width: 120rem;
     margin: 0 auto;

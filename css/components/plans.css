@@ -1,8 +1,22 @@
+.section.section--plans {
+    padding-bottom: 0;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.0675);
+}
+
 .plans {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    gap: 6.4rem;
+    column-gap: 6.4rem;
+    row-gap: 3.2rem;
+}
+
+.plans__details {
+    padding-bottom: 3.2rem;
+    font-size: 1.6rem;
+    color: #868e96;
+    /* border-bottom: 3px solid #fdf2e9; */
 }
 
 .plan {
@@ -25,7 +39,7 @@
 }
 
 .plan--premium::after {
-    padding: .8rem 5rem;
+    padding: 0.8rem 5rem;
     content: "melhor valor";
     position: absolute;
     top: 5%;
@@ -82,7 +96,7 @@
 
 .plan__pricing-details {
     font-weight: 300;
-    color:  #868e96;
+    color: #868e96;
     font-size: 1.6rem;
 }
 

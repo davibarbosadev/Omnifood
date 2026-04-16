@@ -1,15 +1,28 @@
 .header {
-    height: 9.6rem;
-    padding-inline: 2.4rem;
-
+    position: relative;
+    padding: 0 1.6rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-
     background-color: #fdf2e9;
 }
 
 .logo {
-    height: 1.8rem;
+    position: relative;
+    z-index: 1;
+    height: 2rem;
 }
 
+/* para larguras a partir de 768px */
+@media (min-width: 48em) {
+    .header {
+        padding: 0 2.4rem;
+    }
+}
+
+/* para larguras a partir de 1440px */
+@media (min-width: 90em) {
+    .header {
+        padding: 0 3.2rem;
+    }
+}

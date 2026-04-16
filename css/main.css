@@ -1,4 +1,6 @@
 @import "base/reset.css";
+@import "base/base.css";
+
 @import "components/section.css";
 @import "components/buttons.css";
 @import "components/header.css";
@@ -8,14 +10,11 @@
 @import "components/stats.css";
 @import "components/how-it-work.css";
 @import "components/meals.css";
-@import "components/diet-list.css";
+@import "components/diet.css";
 @import "components/testimonials.css";
 @import "components/plans.css";
 @import "components/features.css";
 @import "components/cta.css";
 @import "components/footer.css";
 
-
-
-
-
+@import "layout/container.css";

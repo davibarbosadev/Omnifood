@@ -1,0 +1,28 @@
+.container {
+    padding: 0 1.6rem;
+}
+
+/* para larguras a partir de 768px */
+@media (min-width: 48em) {
+    .container {
+        padding: 0 3.2rem;
+    }
+}
+
+/* para larguras a partir de 1024px */
+@media (min-width: 64em) {
+    .container {
+        padding: 0 4.8rem;
+    }
+}
+
+/* para larguras a partir de 1240px */
+@media (min-width: 77.5em) {
+    .container {
+        padding: 0;
+        margin: 0 auto;
+        max-width: 124rem;
+    }
+}
+
+

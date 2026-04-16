@@ -1,38 +1,26 @@
-.btn {
+.button {
+    display: inline-block;
+    padding: 1.2rem 2.4rem;
+    font-size: clamp(1.2rem, 0.991rem + 0.65vw, 1.8rem);
     border-radius: 0.8rem;
+    text-decoration: none;
     transition:
         background-color 0.3s ease,
-        color 0.3s ease;
+        border-color 0.3s ease;
 }
 
-.btn--small {
-    padding: 1.2rem 2.4rem;
-    font-size: 1.2rem;
-}
-
-.btn--big {
-    padding: 1.6rem 3.2rem;
-    font-size: 1.6rem;
-}
-
-.btn--link {
-    color: inherit;
-    display: inline-block;
-    text-decoration: none;
-}
-
-.btn--primary {
+/* Variantes */
+.button--primary {
     font-weight: 600;
-    color: #fdf2e9;
+    color: #fff;
     background-color: #e67e22;
 }
 
-.btn--primary:hover {
-    color: #fff;
+.button--primary:hover {
     background-color: #cf711f;
 }
 
-.btn--secondary {
+.button--secondary {
     font-weight: 400;
     color: #e67e22;
     background-color: #fff;
@@ -40,16 +28,35 @@
     outline-offset: -4px;
 }
 
-.btn--secondary:hover {
+.button--secondary:hover {
     background-color: #fdf2e9;
 }
 
-.btn--icon {
-    display: flex;
+.button--tertiary {
+    font-weight: 400;
+    color: #e67e22;
+    background-color: transparent;
+}
+
+/* Link */
+.button--link {
+    width: max-content;
+    padding: 0.4rem 0.8rem;
+    border-bottom: 1px solid currentColor;
+    border-radius: 0;
+}
+
+.button--link:hover {
+    border-color: transparent;
+}
+
+/* Com ícone */
+.button--with-icon {
+    display: inline-flex;
     align-items: center;
     gap: 0.4rem;
 }
 
-.btn__icon {
-    width: 16px;
+.button__icon {
+    height: 1.4rem;
 }

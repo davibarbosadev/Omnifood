@@ -20,16 +20,51 @@
                 <img class="logo" src="assets/img/omnifood-logo.png" alt="Logo Omnifood" />
             </a>
 
-            <nav class="navigation">
-                <ul class="navigation__list">
-                    <li><a class="navigation__link" href="#">Como funciona</a></li>
-                    <li><a class="navigation__link" href="#">Cardápio</a></li>
-                    <li><a class="navigation__link" href="#">Depoimentos</a></li>
-                    <li><a class="navigation__link" href="#">Planos</a></li>
+            <nav class="nav">
+                <button class="nav__toggle">
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="nav__icon nav__icon--hamburger"
+                    >
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M4 6l16 0" />
+                        <path d="M4 12l16 0" />
+                        <path d="M4 18l16 0" />
+                    </svg>
+
+                    <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        width="24"
+                        height="24"
+                        viewBox="0 0 24 24"
+                        fill="none"
+                        stroke="currentColor"
+                        stroke-width="1"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        class="nav__icon nav__icon--close"
+                    >
+                        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                        <path d="M18 6l-12 12" />
+                        <path d="M6 6l12 12" />
+                    </svg>
+                </button>
+
+                <ul class="nav__list">
+                    <li><a class="nav__link" href="#">Como funciona</a></li>
+                    <li><a class="nav__link" href="#">Cardápio</a></li>
+                    <li><a class="nav__link" href="#">Depoimentos</a></li>
+                    <li><a class="nav__link" href="#">Planos</a></li>
                     <li>
-                        <a class="btn btn--small btn--link btn--primary" href="#"
-                            >Experimente grátis</a
-                        >
+                        <a class="button button--primary" href="#">Experimente grátis</a>
                     </li>
                 </ul>
             </nav>
@@ -50,11 +85,9 @@
                         </p>
 
                         <div class="hero__actions">
-                            <a class="btn btn--big btn--link btn--primary" href="#"
-                                >Começar agora</a
-                            >
+                            <a class="button button--primary" href="#">Começar agora</a>
 
-                            <a class="btn btn--big btn--link btn--secondary btn--icon" href="#"
+                            <a class="button button--secondary button--with-icon" href="#"
                                 ><span>Saiba mais</span>
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -62,7 +95,7 @@
                                     viewBox="0 0 24 24"
                                     stroke-width="1.5"
                                     stroke="currentColor"
-                                    class="btn__icon"
+                                    class="button__icon"
                                 >
                                     <path
                                         stroke-linecap="round"
@@ -76,7 +109,7 @@
 
                     <div class="hero__img">
                         <img
-                            src="assets/img/hero.png"
+                            src="./assets/img/hero.png"
                             alt="Mulher saboreando comida, refeições em recipientes de armazenamento e pratos dispostos sobre uma mesa."
                         />
                     </div>
@@ -105,114 +138,114 @@
             </section>
 
             <section class="section section--stats">
+                <header class="section__header">
+                    <h2 class="section__title">Alimentação saudável para milhares de pessoas</h2>
+                </header>
                 <div class="container">
-                    <div class="stats">
-                        <h2 class="stats__title">Alimentação saudável para milhares de pessoas</h2>
+                    <ul class="stats">
+                        <li class="stat">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="stat__icon"
+                            >
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M16 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
+                                <path
+                                    d="M5 16v1a2 2 0 0 0 4 0v-5h-3a3 3 0 0 0 -3 3v1h10a6 6 0 0 1 5 -4v-5a2 2 0 0 0 -2 -2h-1"
+                                />
+                                <path d="M6 9l3 0" />
+                            </svg>
 
-                        <ul class="stats__list">
-                            <li class="stats__item">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="24"
-                                    height="24"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    stroke-width="2"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    class="stats__icon"
-                                >
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M16 17a2 2 0 1 0 4 0a2 2 0 1 0 -4 0" />
-                                    <path
-                                        d="M5 16v1a2 2 0 0 0 4 0v-5h-3a3 3 0 0 0 -3 3v1h10a6 6 0 0 1 5 -4v-5a2 2 0 0 0 -2 -2h-1"
-                                    />
-                                    <path d="M6 9l3 0" />
-                                </svg>
-                                <p class="stats__value">250.000+</p>
-                                <p class="stats__label">Refeições entregues</p>
-                            </li>
+                            <p class="stat__value">250.000+</p>
+                            <p class="stat__label">Refeições entregues</p>
+                        </li>
 
-                            <li class="stats__item">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="24"
-                                    height="24"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    stroke-width="2"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    class="stats__icon"
-                                >
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
-                                    <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
-                                    <path d="M3 6l0 13" />
-                                    <path d="M12 6l0 13" />
-                                    <path d="M21 6l0 13" />
-                                </svg>
-                                <p class="stats__value">5.000+</p>
-                                <p class="stats__label">Receitas personalizadas</p>
-                            </li>
+                        <li class="stat">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="stat__icon"
+                            >
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path d="M3 19a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+                                <path d="M3 6a9 9 0 0 1 9 0a9 9 0 0 1 9 0" />
+                                <path d="M3 6l0 13" />
+                                <path d="M12 6l0 13" />
+                                <path d="M21 6l0 13" />
+                            </svg>
+                            <p class="stat__value">5.000+</p>
+                            <p class="stat__label">Receitas personalizadas</p>
+                        </li>
 
-                            <li class="stats__item">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="24"
-                                    height="24"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    stroke-width="2"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    class="stats__icon"
-                                >
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path
-                                        d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873l-6.158 -3.245"
-                                    />
-                                </svg>
-                                <p class="stats__value">4.8</p>
-                                <p class="stats__label">Avaliação média</p>
-                            </li>
+                        <li class="stat">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="stat__icon"
+                            >
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873l-6.158 -3.245"
+                                />
+                            </svg>
+                            <p class="stat__value">4.8</p>
+                            <p class="stat__label">Avaliação média</p>
+                        </li>
 
-                            <li class="stats__item">
-                                <svg
-                                    xmlns="http://www.w3.org/2000/svg"
-                                    width="24"
-                                    height="24"
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    stroke="currentColor"
-                                    stroke-width="2"
-                                    stroke-linecap="round"
-                                    stroke-linejoin="round"
-                                    class="stats__icon"
-                                >
-                                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-                                    <path
-                                        d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12"
-                                    />
-                                    <path d="M16 3v4" />
-                                    <path d="M8 3v4" />
-                                    <path d="M4 11h16" />
-                                    <path d="M7 14h.013" />
-                                    <path d="M10.01 14h.005" />
-                                    <path d="M13.01 14h.005" />
-                                    <path d="M16.015 14h.005" />
-                                    <path d="M13.015 17h.005" />
-                                    <path d="M7.01 17h.005" />
-                                    <path d="M10.01 17h.005" />
-                                </svg>
-                                <p class="stats__value">365</p>
-                                <p class="stats__label">Dias de refeições por ano</p>
-                            </li>
-                        </ul>
-                    </div>
+                        <li class="stat">
+                            <svg
+                                xmlns="http://www.w3.org/2000/svg"
+                                width="24"
+                                height="24"
+                                viewBox="0 0 24 24"
+                                fill="none"
+                                stroke="currentColor"
+                                stroke-width="2"
+                                stroke-linecap="round"
+                                stroke-linejoin="round"
+                                class="stat__icon"
+                            >
+                                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                                <path
+                                    d="M4 7a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2v-12"
+                                />
+                                <path d="M16 3v4" />
+                                <path d="M8 3v4" />
+                                <path d="M4 11h16" />
+                                <path d="M7 14h.013" />
+                                <path d="M10.01 14h.005" />
+                                <path d="M13.01 14h.005" />
+                                <path d="M16.015 14h.005" />
+                                <path d="M13.015 17h.005" />
+                                <path d="M7.01 17h.005" />
+                                <path d="M10.01 17h.005" />
+                            </svg>
+                            <p class="stat__value">365</p>
+                            <p class="stat__label">Dias de refeições por ano</p>
+                        </li>
+                    </ul>
                 </div>
             </section>
 
@@ -648,7 +681,9 @@
                     </div>
 
                     <footer class="section__footer">
-                        <a class="meals__link" href="#">Ver todas as receitas &rarr;</a>
+                        <a class="button button--tertiary button--link button--with-icon" href="#"
+                            >Ver todas as receitas &rarr;</a
+                        >
                     </footer>
                 </div>
             </section>
@@ -826,7 +861,7 @@
                                 </li>
                             </ul>
 
-                            <button class="btn btn--primary plan__cta">Começar agora</button>
+                            <button class="button button--primary plan__cta">Começar agora</button>
                         </article>
 
                         <article class="plan plan--premium">
@@ -920,8 +955,9 @@
                                 </li>
                             </ul>
 
-                            <button class="btn btn--primary plan__cta">Começar agora</button>
+                            <button class="button button--primary plan__cta">Começar agora</button>
                         </article>
+
                         <p class="plans__details">
                             Os preços incluem todos os impostos aplicáveis. Os usuários podem
                             cancelar a qualquer momento.
@@ -956,11 +992,14 @@
                                     />
                                 </svg>
                             </span>
-                            <p class="feature__title">Nunca cozinhe novamente!</p>
-                            <p class="feature__info">
-                                Nossas assinaturas cobrem 365 dias por ano, incluindo até os
-                                principais feriados.
-                            </p>
+
+                            <div class="feature__content">
+                                <p class="feature__title">Nunca cozinhe novamente!</p>
+                                <p class="feature__info">
+                                    Nossas assinaturas cobrem 365 dias por ano, incluindo até os
+                                    principais feriados.
+                                </p>
+                            </div>
                         </li>
 
                         <li class="feature">
@@ -985,11 +1024,14 @@
                                     <path d="M12 7c0 -1.2 .867 -4 3 -4" />
                                 </svg>
                             </span>
-                            <p class="feature__title">Local e orgânico</p>
-                            <p class="feature__info">
-                                Nossos cozinheiros utilizam apenas produtos locais, frescos e
-                                orgânicos para preparar suas refeições.
-                            </p>
+
+                            <div class="feature__content">
+                                <p class="feature__title">Local e orgânico</p>
+                                <p class="feature__info">
+                                    Nossos cozinheiros utilizam apenas produtos locais, frescos e
+                                    orgânicos para preparar suas refeições.
+                                </p>
+                            </div>
                         </li>
 
                         <li class="feature">
@@ -1019,11 +1061,14 @@
                                     />
                                 </svg>
                             </span>
-                            <p class="feature__title">Sem desperdício</p>
-                            <p class="feature__info">
-                                Todos os nossos parceiros utilizam recipientes reutilizáveis para
-                                embalar todas as suas refeições.
-                            </p>
+
+                            <div class="feature__content">
+                                <p class="feature__title">Sem desperdício</p>
+                                <p class="feature__info">
+                                    Todos os nossos parceiros utilizam recipientes reutilizáveis
+                                    para embalar todas as suas refeições.
+                                </p>
+                            </div>
                         </li>
 
                         <li class="feature">
@@ -1049,11 +1094,14 @@
                                     />
                                 </svg>
                             </span>
-                            <p class="feature__title">Pause quando quiser</p>
-                            <p class="feature__info">
-                                Vai viajar? Basta pausar sua assinatura, e nós reembolsamos os dias
-                                não utilizados.
-                            </p>
+
+                            <div class="feature__content">
+                                <p class="feature__title">Pause quando quiser</p>
+                                <p class="feature__info">
+                                    Vai viajar? Basta pausar sua assinatura, e nós reembolsamos os
+                                    dias não utilizados.
+                                </p>
+                            </div>
                         </li>
                     </ul>
                 </div>
@@ -1062,7 +1110,7 @@
             <section class="section section--cta">
                 <div class="container">
                     <div class="cta">
-                        <div class="cta__text">
+                        <div class="cta__content">
                             <header class="cta__header">
                                 <h2 class="cta__title">Receba sua primeira refeição grátis</h2>
                                 <p class="cta__description">
@@ -1191,10 +1239,11 @@
                                 </svg>
                             </li>
                         </ul>
+
                         <p class="footer__copyright">Copyright&copy; 2026 Omnifood</p>
                     </div>
 
-                    <div class="footer__column">
+                    <div class="footer__column footer__column--address">
                         <h2 class="footer__title">Contate-nos</h2>
                         <ul class="footer__list">
                             <li>

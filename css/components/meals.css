@@ -3,12 +3,15 @@
 }
 
 .meals {
+    padding-inline: 2.4rem;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 4.8rem;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: 1fr;
+    gap: 2.4rem;
 }
 
 .meal {
+    height: max-content;
     border-radius: 1.2rem;
     box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
     overflow: hidden;
@@ -25,7 +28,7 @@
 }
 
 .meal__content {
-    padding: 1.2rem 2.4rem 3.2rem;
+    padding: 1.6rem 1.6rem 3.2rem;
     display: flex;
     flex-direction: column;
 }
@@ -33,12 +36,12 @@
 .meal__categories {
     display: flex;
     gap: 0.8rem;
-    font-size: 1.2rem;
-    font-weight: 500;
 }
 
 .meal__category {
     padding: 0.4rem 1.2rem;
+    font-size: 1.2rem;
+    font-weight: 500;
     border-radius: 50px;
 }
 
@@ -86,20 +89,26 @@
     font-weight: 500;
 }
 
-.meals__link-container {
-    padding-block: 3.2rem;
-    text-align: center;
+/* para larguras a partir de 425px */
+@media (min-width: 26.5625em) {
+    .meals {
+        padding: 0;
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
-.meals__link:any-link {
-    text-decoration: none;
-    font-size: 1.8rem;
-    color: #e67e22;
-    border-bottom: 1px solid;
-    padding-bottom: 0.2rem;
-    transition: border-color 0.3s ease;
+/* para larguras a partir de 768px */
+@media (min-width: 48em) {
+    .meals {
+        margin: 0 auto;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 80rem;
+    }
 }
 
-.meals__link:hover {
-    border-color: transparent;
+/* para larguras a partir de 1024px */
+@media (min-width: 64em) {
+    .meals {
+        gap: 3.2rem;
+    }
 }

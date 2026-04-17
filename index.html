@@ -16,7 +16,7 @@
     </head>
     <body>
         <header class="header">
-            <a href="index.html">
+            <a href="#">
                 <img class="logo" src="assets/img/omnifood-logo.png" alt="Logo Omnifood" />
             </a>
 
@@ -59,12 +59,12 @@
                 </button>
 
                 <ul class="nav__list">
-                    <li><a class="nav__link" href="#">Como funciona</a></li>
-                    <li><a class="nav__link" href="#">Cardápio</a></li>
-                    <li><a class="nav__link" href="#">Depoimentos</a></li>
-                    <li><a class="nav__link" href="#">Planos</a></li>
+                    <li><a class="nav__link" href="#how-it-work">Como funciona</a></li>
+                    <li><a class="nav__link" href="#meals">Cardápio</a></li>
+                    <li><a class="nav__link" href="#testimonials">Depoimentos</a></li>
+                    <li><a class="nav__link" href="#plans">Planos</a></li>
                     <li>
-                        <a class="button button--primary" href="#">Experimente grátis</a>
+                        <a class="button button--primary" href="#cta">Experimente grátis</a>
                     </li>
                 </ul>
             </nav>
@@ -85,9 +85,9 @@
                         </p>
 
                         <div class="hero__actions">
-                            <a class="button button--primary" href="#">Começar agora</a>
+                            <a class="button button--primary" href="#cta">Começar agora</a>
 
-                            <a class="button button--secondary button--with-icon" href="#"
+                            <a class="button button--secondary button--with-icon" href="#how-it-work"
                                 ><span>Saiba mais</span>
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
@@ -249,7 +249,7 @@
                 </div>
             </section>
 
-            <section class="section section--how-it-work">
+            <section class="section section--how-it-work" id="how-it-work">
                 <div class="container">
                     <header class="section__header">
                         <span class="section__subtitle">Como funciona</span>
@@ -324,7 +324,7 @@
                 </div>
             </section>
 
-            <section class="section section--meals">
+            <section class="section section--meals" id="meals">
                 <div class="container">
                     <header class="section__header">
                         <span class="section__subtitle">Cardápio</span>
@@ -688,7 +688,7 @@
                 </div>
             </section>
 
-            <section class="section section--testimonials">
+            <section class="section section--testimonials" id="testimonials">
                 <div class="container">
                     <header class="section__header">
                         <span class="section__subtitle">Depoimentos</span>
@@ -761,7 +761,7 @@
                 </div>
             </section>
 
-            <section class="section section--plans">
+            <section class="section section--plans" id="plans">
                 <div class="container">
                     <header class="section__header">
                         <span class="section__subtitle">Planos</span>
@@ -1107,7 +1107,7 @@
                 </div>
             </section>
 
-            <section class="section section--cta">
+            <section class="section section--cta" id="cta">
                 <div class="container">
                     <div class="cta">
                         <div class="cta__content">
@@ -1169,7 +1169,7 @@
             <div class="container">
                 <div class="footer__grid">
                     <div class="footer__column footer__column--brand">
-                        <a href="index.html">
+                        <a href="#">
                             <img
                                 class="logo"
                                 src="assets/img/omnifood-logo.png"
@@ -1240,7 +1240,7 @@
                             </li>
                         </ul>
 
-                        <p class="footer__copyright">Copyright&copy; 2026 Omnifood</p>
+                        <p class="footer__copyright">Copyright&copy; <span id="year"></span> Omnifood</p>
                     </div>
 
                     <div class="footer__column footer__column--address">
@@ -1293,5 +1293,6 @@
                 </div>
             </div>
         </footer>
+        <script src="js/script.js"></script>
     </body>
 </html>

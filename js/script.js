@@ -1,20 +1,21 @@
+const body = document.querySelector("body");
 const navToggle = document.querySelector(".nav__toggle");
 const nav = document.querySelector(".nav");
 const yearElement = document.querySelector("#year");
 
 navToggle.addEventListener("click", () => {
     nav.classList.toggle("nav--open");
-    console.log("clicou");
+
+    body.classList.toggle("no-scroll");
+
 });
 
 const allLinks = document.querySelectorAll("a:any-link");
-console.log(allLinks);
 
 allLinks.forEach(function (link) {
     link.addEventListener("click", function (e) {
         e.preventDefault();
         const href = link.getAttribute("href");
-        console.log(href);
 
         // scroll para voltar para o topo
         if (href === "#") {
@@ -32,6 +33,8 @@ allLinks.forEach(function (link) {
         // fechar menu mobile
         if (link.classList.contains("nav__link")) {
             nav.classList.remove("nav--open");
+
+            body.classList.remove("no-scroll");
         }
     });
 });
@@ -48,7 +51,6 @@ const observer = new IntersectionObserver(
 
         if (ent.isIntersecting === false) {
             document.querySelector(".header").classList.add("sticky");
-
         } else if (ent.isIntersecting === true) {
             document.querySelector(".header").classList.remove("sticky");
         }

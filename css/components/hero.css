@@ -2,11 +2,6 @@
     background-color: #fdf2e9;
 }
 
-:has(.sticky) .section--hero {
-    padding-top: 9.6rem;
-}
-
-
 .hero {
     padding: 0 1.6rem;
     display: grid;
